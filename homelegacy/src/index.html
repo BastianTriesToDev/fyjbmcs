@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/homelegacy/src/homecss.css" rel="stylesheet">
+    <link href="/homelegacy/dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <title>FYMCS 新山寬柔中學電腦學會</title>
+</head>
+<body class="font-en  bg-dark text-light">
+    <nav class="p-6 flex justify-between" id="navbar">
+        <img class="max-w-[10%] h-max" src="/homelegacy/media/mcstransparent.png" alt="logo" > 
+        <ul class="flex items-center font-[400] text-[14pt] tracking-tighter">
+            <li class="mr-[100px] h-5 active:text-active  font-bold" id="home">
+                <a class="border-b-2 border-red" href="">HOME</a>
+            </li>
+            <li class="mr-[100px] h-5 relative group" id="aboutus" data-te-dropdown-ref>  
+                <button class="relative  " data-te-dropdown-toggle-ref aria-expanded="false">
+                    <span class="border-b-0 hover:border-b-2 border-red transition-all duration-300">ABOUT US</span>
+                    <img class="absolute m-1 h-6 inline-block transition-opacity duration-100 ease-out" src="/home/media/keyboard-arrow-down.png" alt="">
+                </button>
+                    <div class="hidden min-w-fit whitespace-nowrap absolute z-10 bg-dark pl-2 pr-3 py-1 rounded-lg tracking-tighter [&[data-te-dropdown-show]]:block" id="dropdownmenu" data-te-dropdown-menu-ref data-te-offset="0,2">
+                        <a class="h-1" href="" data-te-dropdown-item-ref>Logo</a><br>
+                        <a class="h-1" href="" data-te-dropdown-item-ref>History</a><br>
+                        <a class="h-1" href="" data-te-dropdown-item-ref>Executive Council</a><br>
+                        <a class="h-1" href="" data-te-dropdown-item-ref>Co-curricular sessions</a>
+                    </div>
+            </li>
+            <li class="mr-[100px] h-5 " id="activities">
+                <a class="border-b-0 hover:border-b-2 border-red transition-all duration-300" href="">ACTIVITIES</a>
+            </li>
+            <li class="mr-[100px] h-5 " id="gallery">
+                <a class="border-b-0 hover:border-b-2 border-red transition-all duration-300" href="">GALLERY_WIP</a>
+            </li>
+            <li class="mr-[20px] h-6 font-cn">
+                <a href="">中文</a>
+            </li>
+            <li class="h-5">
+                <a href=""><img class="h-7" src="/home/media/light-mode-outline-sharp.png" alt=""></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="absolute z-10 flex items-center justify-center w-full h-[100vh] text-light tracking-tighter font-semibold text-[132pt]">
+        This is FYMCS.
+    </div>
+    <div class="relative" data-te-carousel-init data-te-carousel-slide data-te-pause="false">
+        <div class="flex items-center w-full h-[100vh] overflow-hidden">
+            <div class="relative float-left -mr-[100%] w-full transition-all duration-[600ms] ease-in-out" data-te-carousel-item data-te-carousel-active data-te-interval="3000">
+                <img src="/homelegacy/slideshow/DSC_3815.JPG" class="block w-full opacity-60" alt="Wild Landscape">
+            </div>
+            <div class="relative float-left -mr-[100%] hidden w-full transition duration-[600ms] ease-in-out" data-te-carousel-item data-te-interval="3000">
+                <img src="/homelegacy/slideshow/IMG_4870.png" class="block w-full opacity-60" alt="Camera">
+            </div>
+            <div class="relative float-left -mr-[100%] hidden w-full transition duration-[600ms] ease-in-out" data-te-carousel-item data-te-interval="3000">
+                <img src="/homelegacy/slideshow/IMG_9410.JPG" class="block w-full opacity-60" alt="Exotic Fruits">
+            </div>
+            <div class="relative float-left -mr-[100%] hidden w-full transition duration-[600ms] ease-in-out" data-te-carousel-item data-te-interval="3000">
+                <img src="/homelegacy/slideshow/电脑协会生活照7.JPG" class="block w-full opacity-60" alt="Exotic Fruits">
+            </div>
+            <div class="relative float-left -mr-[100%] hidden w-full transition duration-[600ms] ease-in-out" data-te-carousel-item data-te-interval="3000">
+                <img src="/homelegacy/slideshow/DSC_3442.JPG" class="block w-full opacity-60" alt="Exotic Fruits">
+            </div>
+            <div class="relative float-left -mr-[100%] hidden w-full transition duration-[600ms] ease-in-out" data-te-carousel-item data-te-interval="3000">
+                <img src="/homelegacy/slideshow/IMG_2779.JPG" class="block w-full opacity-60" alt="Exotic Fruits">
+            </div>
+        </div>
+    </div>
+    <div class="mt-[30px] px-5 text-light font-light text-[8pt] text-center align-bottom flex justify-center">
+        <p class="">©2023 Foon Yew High School Johor Bahru Micro Computer Society</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</body>
+</html>
